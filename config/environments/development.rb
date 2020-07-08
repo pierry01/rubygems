@@ -1,5 +1,7 @@
 Rails.application.configure do
   config.hosts << "a4d7e203d2274157aeee514eaec0dfc7.vfs.cloud9.us-east-1.amazonaws.com"
+  
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
   config.cache_classes = false
 
