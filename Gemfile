@@ -26,3 +26,4 @@ end
 gem 'haml-rails'
 gem 'bootstrap'
 gem 'jquery-rails'
+gem 'font-awesome-sass'
